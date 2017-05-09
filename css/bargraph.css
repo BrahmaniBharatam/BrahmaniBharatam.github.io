@@ -1,8 +1,8 @@
 .rectangle {
-    fill: #b43e69;
+    fill: #173867;
 }
 .rectangle:hover {
-    fill: #7978ff;
+    fill: #63bf67;
 }
 .axis {
     font: 10px sans-serif;
