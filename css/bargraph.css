@@ -1,0 +1,20 @@
+.rectangle {
+    fill: #b43e69;
+}
+.rectangle:hover {
+    fill: #7978ff;
+}
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 11px !important;
+}

@@ -2,7 +2,9 @@ var graph, transitionTime, transitionDelayTime;
 var usermenu, userinfo;
 
 var fixedHeight = 350;
-var fixedWeight = 700;
+var fixedWeight = 500;
+
+var updateBarGraph;
 
 function resize(){
 	graph.width = fixedWeight; 
@@ -105,21 +107,148 @@ function renderHgraph(data){
 
 $(document).ready(function (){
 
-	var container = $('#viz');
-		minHeight = parseInt(container.css('min-height')),
-		minWidth = parseInt(container.css('min-width'));
+    // Bar Graph Starts
 
-	d3.json("data/hgraph/metrics.json", function(error, metrics) {
-		if (error) return;
+    var marginBar = {top: 20, right: 40, bottom: 20, left: 40},
+        widthBar = 450 - marginBar.left - marginBar.right,
+        heightBar = 280 - marginBar.top - marginBar.bottom;
 
-		usermenu = $('#user-selection');
-		userinfo = $('#user-info');
+    var svgBar = d3.select(".bargraph").append("svg")
+        .attr("width", widthBar + marginBar.left + marginBar.right)
+        .attr("height", heightBar + marginBar.top + marginBar.bottom + 120)
+        .append("g")
+        .attr("transform", "translate(" + marginBar.left + "," + marginBar.top + ")");
+
+    var yAxis, xAxis, x, y;
+
+    var barData;
+
+    updateBarGraph = function(stateName){
+        y.domain([0, d3.max(barData, function(d){
+            return +d[stateName];
+        })]);
+
+        yAxis.scale(y);
+
+        d3.selectAll(".rectangle")
+            .transition()
+            .attr("height", function(d){
+                return heightBar - y(+d[stateName]);
+            })
+            .attr("x", function(d, i){
+                return (widthBar / barData.length) * i ;
+            })
+            .attr("y", function(d){
+                return y(+d[stateName]);
+            })
+            .ease("linear")
+            .select("title")
+            .text(function(d){
+                return d.State + " : " + d[stateName];
+            });
+
+        d3.selectAll("g.y.axis")
+            .transition()
+            .call(yAxis);
+    }
+
+    d3.csv("data/bargraph/data.csv", function(error, data){
+
+        barData = data;
+
+        // Get every column value
+        var elements = Object.keys(data[0])
+            .filter(function(d){
+                return ((d != "State"));
+            });
+        var selection = elements[0];
+
+        y = d3.scale.linear()
+            .domain([0, d3.max(data, function(d){
+                return +d[selection];
+            })])
+            .range([heightBar, 0]);
+
+        x = d3.scale.ordinal()
+            .domain(data.map(function(d){ return d.State;}))
+            .rangeBands([0, widthBar]);
 
 
-		mu.data.initialize(metrics);
-		mu.users.initialize({ usermenu : usermenu, userinfo : userinfo});
+        xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom");
 
-   	});
+        yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left");
+
+        svgBar.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + heightBar + ")")
+            .call(xAxis)
+            .selectAll("text")
+            .style("font-size", "8px")
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", "-.55em")
+            .attr("transform", "rotate(-90)" );
+
+
+        svgBar.append("g")
+            .attr("class", "y axis")
+            .call(yAxis);
+
+        svgBar.selectAll("rectangle")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("class","rectangle")
+            .attr("width", widthBar/data.length)
+            .attr("height", function(d){
+                return heightBar - y(+d[selection]);
+            })
+            .attr("x", function(d, i){
+                return (widthBar / data.length) * i ;
+            })
+            .attr("y", function(d){
+                return y(+d[selection]);
+            })
+            .append("title")
+            .text(function(d){
+                return d.State + " : " + d[selection];
+            });
+
+        var selector = d3.select("#drop")
+            .append("select")
+            .attr("id","dropdown")
+            .on("change", function(d){
+                selection = document.getElementById("dropdown");
+
+                updateBarGraph(selection.value);
+
+            });
+
+        selector.selectAll("option")
+            .data(elements)
+            .enter().append("option")
+            .attr("value", function(d){
+                return d;
+            })
+            .text(function(d){
+                return d;
+            })
+
+
+    });
+
+
+    // Bar Graph Ends
+
+
+
+
+
+
 
 
     //Creates tooltip and makes it invisiblae
@@ -128,8 +257,8 @@ $(document).ready(function (){
         .style("opacity", 0);
 
     //Sets dimensions
-    var margin = {top: 10, left: 10, bottom: 10, right: 10}
-        , widthCp = 700
+    var margin = {top: 100, left: 0, bottom: 100, right: 0}
+        , widthCp = 500
         , widthCp = widthCp - margin.left - margin.right
         , mapRatio = .5
         , heightCp = widthCp * mapRatio;
@@ -173,8 +302,6 @@ $(document).ready(function (){
 
     function ready(error, us, maptemplate) {
         if (error) throw error;
-
-        console.log(us, maptemplate);
 
         //Sets color scale
         var numMedian = d3.median(maptemplate, function(d) { return d.num;});
@@ -224,14 +351,7 @@ $(document).ready(function (){
 
                 mu.users.loadHGraph(stateByFIPS[d.id]);
 
-                var sel = d3.select(this);
-                sel.moveToFront();
-                d3.select(this).transition().duration(300).style("opacity", 0.8);
-                div.transition().duration(300)
-                    .style("opacity", 1)
-                div.text(stateByFIPS[d.id] + ": " + dataByFIPS[d.id])
-                    .style("left", (d3.event.pageX) + "px")
-                    .style("top", (d3.event.pageY -30) + "px");
+                updateBarGraph(stateByFIPS[d.id]);
             })
             .on("mouseout", function() {
                 var sel = d3.select(this);
@@ -257,7 +377,7 @@ $(document).ready(function (){
 
         function resize() {
 
-            var w = 700;
+            var w = 500;
             console.log("resized", w);
 
             // adjust things when the window size changes
@@ -283,5 +403,22 @@ $(document).ready(function (){
             map.selectAll("path").attr('d', path);
         }
     }
+
+
+    var container = $('#viz');
+        minHeight = parseInt(container.css('min-height')),
+        minWidth = parseInt(container.css('min-width'));
+
+    d3.json("data/hgraph/metrics.json", function(error, metrics) {
+        if (error) return;
+
+        usermenu = $('#user-selection');
+        userinfo = $('#user-info');
+
+
+        mu.data.initialize(metrics);
+        mu.users.initialize({ usermenu : usermenu, userinfo : userinfo});
+
+    });
 
 });

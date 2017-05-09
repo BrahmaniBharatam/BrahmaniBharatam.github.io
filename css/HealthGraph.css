@@ -23,6 +23,11 @@
 	fill : #e1604f;
 }
 
+.label{
+	font-size: 100% !important;
+	font-weight: normal !important;
+}
+
 /*Enables pointer cursor for clickable labels and circles*/
 text.clickable,
 circle.clickable {

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <style>
+
+        .rectangle {
+            fill: #b43e69;
+        }
+        .rectangle:hover {
+            fill: #7978ff;
+        }
+        .axis {
+            font: 10px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+    </style>
+</head>
+<body>
+<div id="drop" align=center></div>
+<div class="bargraph" align=center></div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+    var marginBar = {top: 80, right: 180, bottom: 80, left: 180},
+        widthBar = 960 - marginBar.left - marginBar.right,
+        heightBar = 500 - marginBar.top - marginBar.bottom;
+
+    var svgBar = d3.select(".bargraph").append("svg")
+        .attr("width", widthBar + marginBar.left + marginBar.right)
+        .attr("height", heightBar + marginBar.top + marginBar.bottom)
+        .append("g")
+        .attr("transform", "translate(" + marginBar.left + "," + marginBar.top + ")");
+
+    d3.csv("data/bargraph/data.csv", function(error, data){
+
+        // Get every column value
+        var elements = Object.keys(data[0])
+            .filter(function(d){
+                return ((d != "State"));
+            });
+        var selection = elements[0];
+
+        var y = d3.scale.linear()
+            .domain([0, d3.max(data, function(d){
+                return +d[selection];
+            })])
+            .range([heightBar, 0]);
+
+        var x = d3.scale.ordinal()
+            .domain(data.map(function(d){ return d.State;}))
+            .rangeBands([0, widthBar]);
+
+
+        var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom");
+
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left");
+
+        svgBar.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + heightBar + ")")
+            .call(xAxis)
+            .selectAll("text")
+            .style("font-size", "8px")
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", "-.55em")
+            .attr("transform", "rotate(-90)" );
+
+
+        svgBar.append("g")
+            .attr("class", "y axis")
+            .call(yAxis);
+
+        svgBar.selectAll("rectangle")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("class","rectangle")
+            .attr("width", widthBar/data.length)
+            .attr("height", function(d){
+                return heightBar - y(+d[selection]);
+            })
+            .attr("x", function(d, i){
+                return (widthBar / data.length) * i ;
+            })
+            .attr("y", function(d){
+                return y(+d[selection]);
+            })
+            .append("title")
+            .text(function(d){
+                return d.State + " : " + d[selection];
+            });
+
+        var selector = d3.select("#drop")
+            .append("select")
+            .attr("id","dropdown")
+            .on("change", function(d){
+                selection = document.getElementById("dropdown");
+
+                y.domain([0, d3.max(data, function(d){
+                    return +d[selection.value];
+                })]);
+
+                yAxis.scale(y);
+
+                d3.selectAll(".rectangle")
+                    .transition()
+                    .attr("height", function(d){
+                        return heightBar - y(+d[selection.value]);
+                    })
+                    .attr("x", function(d, i){
+                        return (widthBar / data.length) * i ;
+                    })
+                    .attr("y", function(d){
+                        return y(+d[selection.value]);
+                    })
+                    .ease("linear")
+                    .select("title")
+                    .text(function(d){
+                        return d.State + " : " + d[selection.value];
+                    });
+
+                d3.selectAll("g.y.axis")
+                    .transition()
+                    .call(yAxis);
+
+            });
+
+        selector.selectAll("option")
+            .data(elements)
+            .enter().append("option")
+            .attr("value", function(d){
+                return d;
+            })
+            .text(function(d){
+                return d;
+            })
+
+
+    });
+
+</script>
+</body>

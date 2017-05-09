@@ -26,19 +26,24 @@ var initialize = function(opts){
         if (error) return;
         users = json;
 
+        users = _.sortBy(json, 'name');
+
         // render user menu
-        usermenu.html(Mustache.render($('#user-menu-template').html(), json));
+        usermenu.html(Mustache.render($('#user-menu-template').html(), users));
 
         $('.user').change(function(){
             selectUser(this.value);
         });
 
-        selectUser("Washington");
+        selectUser(users[0].name);
 
     });
 };
 
 var selectUser = function(uid){
+
+    updateBarGraph(uid);
+
     d3.csv("data/parallel/nutrients.csv", function(raw_data) {
         // Convert quantitative scales to floats
         data = raw_data.map(function(d) {
