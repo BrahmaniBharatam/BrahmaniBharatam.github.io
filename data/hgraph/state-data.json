@@ -1,0 +1,2756 @@
+{
+  "Washington": {
+    "name": "Washington",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 63
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 16
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 77.9
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 78.9
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 140
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 167
+        },
+        {
+            "LDL": 10,
+            "value": 66
+        },
+        {
+            "HDL": 11,
+            "value": 46
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "South Dakota": {
+    "name": "South Dakota",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 61
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 38
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 86
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 74
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 90
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 152
+        },
+        {
+            "LDL": 10,
+            "value": 129
+        },
+        {
+            "HDL": 11,
+            "value": 68
+        },
+        {
+            "Glucose": 12,
+            "value": 9
+        }
+    ]
+  },
+  "Alabama": {
+    "name": "Alabama",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 5
+        },
+        {
+            "Sleep": 2,
+            "value": 9
+        },
+        {
+            "Physical Activity": 3,
+            "value": 63
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 49
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 88.6
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 71.6
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 135
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 160
+        },
+        {
+            "LDL": 10,
+            "value": 152
+        },
+        {
+            "HDL": 11,
+            "value": 59
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "Ohio": {
+    "name": "Ohio",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 6
+        },
+        {
+            "Sleep": 2,
+            "value": 6
+        },
+        {
+            "Physical Activity": 3,
+            "value": 63
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 29
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 82.6
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 70.8
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 88
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 151
+        },
+        {
+            "LDL": 10,
+            "value": 64
+        },
+        {
+            "HDL": 11,
+            "value": 42
+        },
+        {
+            "Glucose": 12,
+            "value": 11
+        }
+    ]
+  },
+  "Kansas": {
+    "name": "Kansas",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 10
+        },
+        {
+            "Physical Activity": 3,
+            "value": 63
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 40
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 85.5
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 78.2
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 90
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 152
+        },
+        {
+            "LDL": 10,
+            "value": 65
+        },
+        {
+            "HDL": 11,
+            "value": 46
+        },
+        {
+            "Glucose": 12,
+            "value": 13
+        }
+    ]
+  },
+  "Minnesota": {
+    "name": "Minnesota",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 10
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 73
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 50
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 70.8
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 46
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 110
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 158
+        },
+        {
+            "LDL": 10,
+            "value": 71
+        },
+        {
+            "HDL": 11,
+            "value": 42
+        },
+        {
+            "Glucose": 12,
+            "value": 7
+        }
+    ]
+  },
+  "Arkansas": {
+    "name": "Arkansas",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 5
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 74
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 47
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 84.6
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 64.8
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 90
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 151
+        },
+        {
+            "LDL": 10,
+            "value": 121
+        },
+        {
+            "HDL": 11,
+            "value": 47
+        },
+        {
+            "Glucose": 12,
+            "value": 10
+        }
+    ]
+  },
+  "New York": {
+    "name": "New York",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 53
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 28
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 92.3
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 74.1
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 88
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 150
+        },
+        {
+            "LDL": 10,
+            "value": 141
+        },
+        {
+            "HDL": 11,
+            "value": 95
+        },
+        {
+            "Glucose": 12,
+            "value": 5
+        }
+    ]
+  },
+  "New Jersey": {
+    "name": "New Jersey",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 8
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 53
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 18
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 83.3
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 75.1
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 73
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 112
+        },
+        {
+            "LDL": 10,
+            "value": 68
+        },
+        {
+            "HDL": 11,
+            "value": 52
+        },
+        {
+            "Glucose": 12,
+            "value": 10
+        }
+    ]
+  },
+  "Rhode Island": {
+    "name": "Rhode Island",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 9
+        },
+        {
+            "Physical Activity": 3,
+            "value": 58
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 36
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 72.6
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 67.3
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 89
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 151
+        },
+        {
+            "LDL": 10,
+            "value": 91
+        },
+        {
+            "HDL": 11,
+            "value": 110
+        },
+        {
+            "Glucose": 12,
+            "value": 10
+        }
+    ]
+  },
+  "Georgia": {
+    "name": "Georgia",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 6
+        },
+        {
+            "Sleep": 2,
+            "value": 10
+        },
+        {
+            "Physical Activity": 3,
+            "value": 56
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 27
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 86.1
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 74.9
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 87
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 150
+        },
+        {
+            "LDL": 10,
+            "value": 61
+        },
+        {
+            "HDL": 11,
+            "value": 93
+        },
+        {
+            "Glucose": 12,
+            "value": 6
+        }
+    ]
+  },
+  "Illinois": {
+    "name": "Illinois",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 9
+        },
+        {
+            "Physical Activity": 3,
+            "value": 60
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 43
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 88.6
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 90
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 86
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 149
+        },
+        {
+            "LDL": 10,
+            "value": 116
+        },
+        {
+            "HDL": 11,
+            "value": 70
+        },
+        {
+            "Glucose": 12,
+            "value": 5
+        }
+    ]
+  },
+  "Hawaii": {
+    "name": "Hawaii",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 10
+        },
+        {
+            "Sleep": 2,
+            "value": 4
+        },
+        {
+            "Physical Activity": 3,
+            "value": 28
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 34
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 70.8
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 78.1
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 70
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 102
+        },
+        {
+            "LDL": 10,
+            "value": 108
+        },
+        {
+            "HDL": 11,
+            "value": 90
+        },
+        {
+            "Glucose": 12,
+            "value": 5
+        }
+    ]
+  },
+  "Mississippi": {
+    "name": "Mississippi",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 5
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 57
+        },
+        {
+            "Alcohol": 4,
+            "value": 2
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 48
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 86.1
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 63.3
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 85
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 148
+        },
+        {
+            "LDL": 10,
+            "value": 88
+        },
+        {
+            "HDL": 11,
+            "value": 71
+        },
+        {
+            "Glucose": 12,
+            "value": 8
+        }
+    ]
+  },
+  "New Mexico": {
+    "name": "New Mexico",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 6
+        },
+        {
+            "Sleep": 2,
+            "value": 9
+        },
+        {
+            "Physical Activity": 3,
+            "value": 60
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 7
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 91.5
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 79.6
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 84
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 147
+        },
+        {
+            "LDL": 10,
+            "value": 127
+        },
+        {
+            "HDL": 11,
+            "value": 78
+        },
+        {
+            "Glucose": 12,
+            "value": 10
+        }
+    ]
+  },
+  "Arizona": {
+    "name": "Arizona",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 44
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 35
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 84.2
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 85.9
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 79
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 138
+        },
+        {
+            "LDL": 10,
+            "value": 99
+        },
+        {
+            "HDL": 11,
+            "value": 94
+        },
+        {
+            "Glucose": 12,
+            "value": 10
+        }
+    ]
+  },
+  "Vermont": {
+    "name": "Vermont",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 55
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 22
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 91.2
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 72.5
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 85
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 149
+        },
+        {
+            "LDL": 10,
+            "value": 142
+        },
+        {
+            "HDL": 11,
+            "value": 102
+        },
+        {
+            "Glucose": 12,
+            "value": 11
+        }
+    ]
+  },
+  "Maine": {
+    "name": "Maine",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 10
+        },
+        {
+            "Physical Activity": 3,
+            "value": 45
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 14
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 85
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 86.5
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 85
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 149
+        },
+        {
+            "LDL": 10,
+            "value": 122
+        },
+        {
+            "HDL": 11,
+            "value": 93
+        },
+        {
+            "Glucose": 12,
+            "value": 10
+        }
+    ]
+  },
+  "Florida": {
+    "name": "Florida",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 6
+        },
+        {
+            "Sleep": 2,
+            "value": 6
+        },
+        {
+            "Physical Activity": 3,
+            "value": 56
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 33
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 90.7
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 72.2
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 87
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 150
+        },
+        {
+            "LDL": 10,
+            "value": 77
+        },
+        {
+            "HDL": 11,
+            "value": 46
+        },
+        {
+            "Glucose": 12,
+            "value": 9
+        }
+    ]
+  },
+  "Iowa": {
+    "name": "Iowa",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 4
+        },
+        {
+            "Physical Activity": 3,
+            "value": 56
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 30
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 79.8
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 65.1
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 82
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 147
+        },
+        {
+            "LDL": 10,
+            "value": 85
+        },
+        {
+            "HDL": 11,
+            "value": 45
+        },
+        {
+            "Glucose": 12,
+            "value": 9
+        }
+    ]
+  },
+  "California": {
+    "name": "California",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 6
+        },
+        {
+            "Physical Activity": 3,
+            "value": 46
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 3
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 87.7
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 79.3
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 66
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 100
+        },
+        {
+            "LDL": 10,
+            "value": 65
+        },
+        {
+            "HDL": 11,
+            "value": 53
+        },
+        {
+            "Glucose": 12,
+            "value": 7
+        }
+    ]
+  },
+  "Delaware": {
+    "name": "Delaware",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 8
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 56
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 4
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 90.5
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 86.7
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 88
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 150
+        },
+        {
+            "LDL": 10,
+            "value": 82
+        },
+        {
+            "HDL": 11,
+            "value": 83
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "New Hampshire": {
+    "name": "New Hampshire",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 53
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 26
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 90.1
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 94.9
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 80
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 142
+        },
+        {
+            "LDL": 10,
+            "value": 75
+        },
+        {
+            "HDL": 11,
+            "value": 92
+        },
+        {
+            "Glucose": 12,
+            "value": 6
+        }
+    ]
+  },
+  "Tennessee": {
+    "name": "Tennessee",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 5
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 62
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 32
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 88.2
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 88.6
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 80
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 145
+        },
+        {
+            "LDL": 10,
+            "value": 155
+        },
+        {
+            "HDL": 11,
+            "value": 87
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "Connecticut": {
+    "name": "Connecticut",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 8
+        },
+        {
+            "Sleep": 2,
+            "value": 6
+        },
+        {
+            "Physical Activity": 3,
+            "value": 38
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 10
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 94.8
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 94.9
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 82
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 146
+        },
+        {
+            "LDL": 10,
+            "value": 114
+        },
+        {
+            "HDL": 11,
+            "value": 87
+        },
+        {
+            "Glucose": 12,
+            "value": 10
+        }
+    ]
+  },
+  "Nebraska": {
+    "name": "Nebraska",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 48
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 37
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 87.6
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 66.5
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 79
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 136
+        },
+        {
+            "LDL": 10,
+            "value": 126
+        },
+        {
+            "HDL": 11,
+            "value": 117
+        },
+        {
+            "Glucose": 12,
+            "value": 7
+        }
+    ]
+  },
+  "Texas": {
+    "name": "Texas",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 6
+        },
+        {
+            "Physical Activity": 3,
+            "value": 52
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": ""
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 87.6
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 79.3
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 84
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 147
+        },
+        {
+            "LDL": 10,
+            "value": 118
+        },
+        {
+            "HDL": 11,
+            "value": 50
+        },
+        {
+            "Glucose": 12,
+            "value": 13
+        }
+    ]
+  },
+  "Oregon": {
+    "name": "Oregon",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 53
+        },
+        {
+            "Alcohol": 4,
+            "value": 3
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 11
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 93
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 95.2
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 86
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 150
+        },
+        {
+            "LDL": 10,
+            "value": 119
+        },
+        {
+            "HDL": 11,
+            "value": 61
+        },
+        {
+            "Glucose": 12,
+            "value": 6
+        }
+    ]
+  },
+  "Kentucky": {
+    "name": "Kentucky",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 5
+        },
+        {
+            "Sleep": 2,
+            "value": 6
+        },
+        {
+            "Physical Activity": 3,
+            "value": 70
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 25
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 93.8
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 91.8
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 100
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 152
+        },
+        {
+            "LDL": 10,
+            "value": 97
+        },
+        {
+            "HDL": 11,
+            "value": 77
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "South Carolina": {
+    "name": "South Carolina",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 6
+        },
+        {
+            "Sleep": 2,
+            "value": 3
+        },
+        {
+            "Physical Activity": 3,
+            "value": 44
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 16
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 75
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 57
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 79
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 137
+        },
+        {
+            "LDL": 10,
+            "value": 105
+        },
+        {
+            "HDL": 11,
+            "value": 52
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "Wisconsin": {
+    "name": "Wisconsin",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 8
+        },
+        {
+            "Sleep": 2,
+            "value": 4
+        },
+        {
+            "Physical Activity": 3,
+            "value": 47
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 46
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 89.1
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 55.6
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 68
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 101
+        },
+        {
+            "LDL": 10,
+            "value": 79
+        },
+        {
+            "HDL": 11,
+            "value": 40
+        },
+        {
+            "Glucose": 12,
+            "value": 5
+        }
+    ]
+  },
+  "Virginia": {
+    "name": "Virginia",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 8
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 26
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 13
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 88.5
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 82.1
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 79
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 134
+        },
+        {
+            "LDL": 10,
+            "value": 99
+        },
+        {
+            "HDL": 11,
+            "value": 42
+        },
+        {
+            "Glucose": 12,
+            "value": 7
+        }
+    ]
+  },
+  "Oklahoma": {
+    "name": "Oklahoma",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 5
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 22
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 45
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 88
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 68.4
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 84
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 147
+        },
+        {
+            "LDL": 10,
+            "value": 79
+        },
+        {
+            "HDL": 11,
+            "value": 114
+        },
+        {
+            "Glucose": 12,
+            "value": 11
+        }
+    ]
+  },
+  "Nevada": {
+    "name": "Nevada",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 6
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 32
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 2
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 94.4
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 90.6
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 75
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 124
+        },
+        {
+            "LDL": 10,
+            "value": 121
+        },
+        {
+            "HDL": 11,
+            "value": 96
+        },
+        {
+            "Glucose": 12,
+            "value": 7
+        }
+    ]
+  },
+  "Colorado": {
+    "name": "Colorado",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 3
+        },
+        {
+            "Physical Activity": 3,
+            "value": 20
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 24
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 90.2
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 76.8
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 50
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 70
+        },
+        {
+            "LDL": 10,
+            "value": 119
+        },
+        {
+            "HDL": 11,
+            "value": 60
+        },
+        {
+            "Glucose": 12,
+            "value": 11
+        }
+    ]
+  },
+  "Louisiana": {
+    "name": "Louisiana",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 5
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 35
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 8
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 85.4
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 73.6
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 86
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 149
+        },
+        {
+            "LDL": 10,
+            "value": 153
+        },
+        {
+            "HDL": 11,
+            "value": 63
+        },
+        {
+            "Glucose": 12,
+            "value": 7
+        }
+    ]
+  },
+  "North Dakota": {
+    "name": "North Dakota",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 10
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 58
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 18
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 83
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 73.7
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 86
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 149
+        },
+        {
+            "LDL": 10,
+            "value": 76
+        },
+        {
+            "HDL": 11,
+            "value": 119
+        },
+        {
+            "Glucose": 12,
+            "value": 9
+        }
+    ]
+  },
+  "Maryland": {
+    "name": "Maryland",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 6
+        },
+        {
+            "Physical Activity": 3,
+            "value": 36
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 9
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 93.2
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 92.1
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 70
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 110
+        },
+        {
+            "LDL": 10,
+            "value": 152
+        },
+        {
+            "HDL": 11,
+            "value": 95
+        },
+        {
+            "Glucose": 12,
+            "value": 6
+        }
+    ]
+  },
+  "Pennsylvania": {
+    "name": "Pennsylvania",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 7
+        },
+        {
+            "Physical Activity": 3,
+            "value": 48
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 1
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 92.4
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 94.1
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 87
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 150
+        },
+        {
+            "LDL": 10,
+            "value": 147
+        },
+        {
+            "HDL": 11,
+            "value": 76
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "Massachusetts": {
+    "name": "Massachusetts",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 8
+        },
+        {
+            "Sleep": 2,
+            "value": 8
+        },
+        {
+            "Physical Activity": 3,
+            "value": 58
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 23
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 79.3
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 90.7
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 87
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 150
+        },
+        {
+            "LDL": 10,
+            "value": 115
+        },
+        {
+            "HDL": 11,
+            "value": 105
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "Utah": {
+    "name": "Utah",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 10
+        },
+        {
+            "Sleep": 2,
+            "value": 4
+        },
+        {
+            "Physical Activity": 3,
+            "value": 30
+        },
+        {
+            "Alcohol": 4,
+            "value": 4
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 6
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 93.4
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 81.3
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 80
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 139
+        },
+        {
+            "LDL": 10,
+            "value": 110
+        },
+        {
+            "HDL": 11,
+            "value": 43
+        },
+        {
+            "Glucose": 12,
+            "value": 11
+        }
+    ]
+  },
+  "Missouri": {
+    "name": "Missouri",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 6
+        },
+        {
+            "Sleep": 2,
+            "value": 4
+        },
+        {
+            "Physical Activity": 3,
+            "value": 33
+        },
+        {
+            "Alcohol": 4,
+            "value": 5
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 42
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 84.7
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 60.2
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 69
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 102
+        },
+        {
+            "LDL": 10,
+            "value": 142
+        },
+        {
+            "HDL": 11,
+            "value": 69
+        },
+        {
+            "Glucose": 12,
+            "value": 9
+        }
+    ]
+  },
+  "Michigan": {
+    "name": "Michigan",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 5
+        },
+        {
+            "Sleep": 2,
+            "value": 4
+        },
+        {
+            "Physical Activity": 3,
+            "value": 37
+        },
+        {
+            "Alcohol": 4,
+            "value": 5
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 39
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 87.2
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 75.5
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 52
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 83
+        },
+        {
+            "LDL": 10,
+            "value": 160
+        },
+        {
+            "HDL": 11,
+            "value": 113
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "Montana": {
+    "name": "Montana",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 4
+        },
+        {
+            "Physical Activity": 3,
+            "value": 44
+        },
+        {
+            "Alcohol": 4,
+            "value": 7
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 20
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 82.2
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 74.1
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 79
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 129
+        },
+        {
+            "LDL": 10,
+            "value": 64
+        },
+        {
+            "HDL": 11,
+            "value": 70
+        },
+        {
+            "Glucose": 12,
+            "value": 8
+        }
+    ]
+  },
+  "Idaho": {
+    "name": "Idaho",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 6
+        },
+        {
+            "Physical Activity": 3,
+            "value": 56
+        },
+        {
+            "Alcohol": 4,
+            "value": 8
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 21
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 91.9
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 77.1
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 78
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 127
+        },
+        {
+            "LDL": 10,
+            "value": 60
+        },
+        {
+            "HDL": 11,
+            "value": 94
+        },
+        {
+            "Glucose": 12,
+            "value": 7
+        }
+    ]
+  },
+  "Alaska": {
+    "name": "Alaska",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 6
+        },
+        {
+            "Physical Activity": 3,
+            "value": 31
+        },
+        {
+            "Alcohol": 4,
+            "value": 8
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 40
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 73.8
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 56.9
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 74
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 119
+        },
+        {
+            "LDL": 10,
+            "value": 160
+        },
+        {
+            "HDL": 11,
+            "value": 44
+        },
+        {
+            "Glucose": 12,
+            "value": 7
+        }
+    ]
+  },
+  "Indiana": {
+    "name": "Indiana",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 6
+        },
+        {
+            "Sleep": 2,
+            "value": 4
+        },
+        {
+            "Physical Activity": 3,
+            "value": 50
+        },
+        {
+            "Alcohol": 4,
+            "value": 8
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 31
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 76.7
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 64.4
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 83
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 147
+        },
+        {
+            "LDL": 10,
+            "value": 96
+        },
+        {
+            "HDL": 11,
+            "value": 111
+        },
+        {
+            "Glucose": 12,
+            "value": 9
+        }
+    ]
+  },
+  "West Virginia": {
+    "name": "West Virginia",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 5
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 44
+        },
+        {
+            "Alcohol": 4,
+            "value": 9
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 15
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 93.3
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 73.8
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 85
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 149
+        },
+        {
+            "LDL": 10,
+            "value": 80
+        },
+        {
+            "HDL": 11,
+            "value": 76
+        },
+        {
+            "Glucose": 12,
+            "value": 10
+        }
+    ]
+  },
+  "North Carolina": {
+    "name": "North Carolina",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 7
+        },
+        {
+            "Sleep": 2,
+            "value": 4
+        },
+        {
+            "Physical Activity": 3,
+            "value": 44
+        },
+        {
+            "Alcohol": 4,
+            "value": 9
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 12
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 92.1
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 91.8
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 74
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 114
+        },
+        {
+            "LDL": 10,
+            "value": 145
+        },
+        {
+            "HDL": 11,
+            "value": 54
+        },
+        {
+            "Glucose": 12,
+            "value": 12
+        }
+    ]
+  },
+  "District of Columbia": {
+    "name": "District of Columbia",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 8
+        },
+        {
+            "Sleep": 2,
+            "value": 5
+        },
+        {
+            "Physical Activity": 3,
+            "value": 42
+        },
+        {
+            "Alcohol": 4,
+            "value": 10
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 12
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 81.4
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 93.5
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 60
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 96
+        },
+        {
+            "LDL": 10,
+            "value": 105
+        },
+        {
+            "HDL": 11,
+            "value": 94
+        },
+        {
+            "Glucose": 12,
+            "value": 11
+        }
+    ]
+  },
+  "Wyoming": {
+    "name": "Wyoming",
+    "gender": "male",
+    "score_data": [
+        {
+            "Happiness": 1,
+            "value": 9
+        },
+        {
+            "Sleep": 2,
+            "value": 10
+        },
+        {
+            "Physical Activity": 3,
+            "value": 75
+        },
+        {
+            "Alcohol": 4,
+            "value": 10
+        },
+        {
+            "Immunization HPV": 5,
+            "value": 12
+        },
+        {
+            "Immunization Tdap": 6,
+            "value": 81.4
+        },
+        {
+            "Immunization Meningococcal": 7,
+            "value": 93.5
+        },
+        {
+            "Blood Pressure Diastolic": 8,
+            "value": 60
+        },
+        {
+            "Blood Pressure Systolic": 9,
+            "value": 96
+        },
+        {
+            "LDL": 10,
+            "value": 118
+        },
+        {
+            "HDL": 11,
+            "value": 115
+        },
+        {
+            "Glucose": 12,
+            "value": 7
+        }
+    ]
+  }
+}

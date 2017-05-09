@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hGraph - Health Score Graphing</title>
+	
+	
+	<link rel="shortcut icon" href="imgs/Icon-72.png">
+	<link rel="apple-touch-icon" href="imgs/hgraph_logo-144.png" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+	<!-- Optional theme -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>	
+	 
+
+	<script type="text/javascript" src="js/hgraph/mustache.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	<!-- <script src="js/lib/d3.js"></script> -->
+	<script type="text/javascript" src="js/lib/hammer.js" ></script>
+	<script type="text/javascript" src="js/hgraph/HealthGraph.js" ></script>
+	<script src="js/hgraph/hGraphMain.js" type="text/javascript"></script>
+	<script src="js/hgraph/hUsers.js" type="text/javascript"></script>
+	<script src="js/hgraph/hData.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/HealthGraph.css">
+
+	<link rel="stylesheet" type="text/css" href="css/parallel.css" />
+	<link rel="stylesheet" type="text/css" href="css/chloropleth.css" />
+</head>
+<body>
+
+	<div id="user-selection"></div>
+
+
+	<div class="g-chart" style="height: 420px;width: 700px;float: left;"></div>
+
+	<section id="main" style="height: 420px;">
+		<figure id="viz" class="content_inset healthgraph detailed">
+			<div id="user-info" > </div>
+			
+		</figure>
+	</section>
+
+	<script type="text/html" id="user-menu-template">
+		<select class="user" name="state" id="state">
+			{{#.}}
+			<option value="{{name}}">{{name}}</option>
+			{{/.}}
+		</select>
+	</script>
+
+
+	<div id="chart">
+	    <canvas id="background"></canvas>
+	    <canvas id="foreground"></canvas>
+	    <canvas id="highlight"></canvas>
+	    <svg></svg>
+	</div>
+	<div id="wrap">
+
+	    <!-- <div class="third">
+	        <h3>States <input type="text" id="search" placeholder="Search States..."></input></h3>
+	        <p id="food-list">
+	        </p>
+	    </div> -->
+	</div>
+	
+</body>
+
+	<script src="http://underscorejs.org/underscore.js"></script>
+	<script src="js/parallel/parallel.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script> -->
+<script>
+
+    
+</script>
+</html>
