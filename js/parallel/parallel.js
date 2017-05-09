@@ -2,11 +2,11 @@
 // Copyright (c) 2012, Kai Chang
 // Released under the BSD License: http://opensource.org/licenses/BSD-3-Clause
 
-var mainWidth = 1450;
+var mainWidth = 1400;
 var width = mainWidth,
-    height = d3.max([document.body.clientHeight-540, 240]);
+    height = 240;
 
-var m = [60, 50, 10, 50],
+var m = [60, 10, 10, 30],
     w = width - m[1] - m[3],
     h = height - m[0] - m[2],
     xscale = d3.scale.ordinal().rangePoints([0, w], 1),
@@ -579,8 +579,13 @@ function update_ticks(d, extent) {
     // update axes
     d3.selectAll(".axis")
         .each(function(d,i) {
+            if(!d){
+                return;
+            }
             // hide lines for better performance
             d3.select(this).selectAll('line').style("display", "none");
+
+            console.log(d, i);
 
             // transition axis numbers
             d3.select(this)

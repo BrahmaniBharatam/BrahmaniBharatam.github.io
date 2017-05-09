@@ -31,19 +31,24 @@ var initialize = function(opts){
         // render user menu
         usermenu.html(Mustache.render($('#user-menu-template').html(), users));
 
+
+        // On change of select state
         $('.user').change(function(){
             selectUser(this.value);
         });
 
-        selectUser(users[0].name);
+        initializeUser(users[0]);
 
     });
 };
 
 var selectUser = function(uid){
 
+    // for bar graph
     updateBarGraph(uid);
 
+
+    // for parallel plot
     d3.csv("data/parallel/nutrients.csv", function(raw_data) {
         // Convert quantitative scales to floats
         data = raw_data.map(function(d) {
@@ -63,6 +68,9 @@ var selectUser = function(uid){
             }
         }
     });
+
+
+    // for HGraph
     for(var i=0; i<users.length; i++) {
         if(uid === users[i].id) {
             initializeUser(users[i]);

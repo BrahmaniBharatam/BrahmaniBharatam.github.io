@@ -347,10 +347,15 @@ $(document).ready(function (){
             .on("click", function(d) {
                 // console.log(stateByFIPS[d.id]);
 
+                // chloropleth state click
+
+                // update parallel graph
                 renderParallelGraph(stateByFIPS[d.id]);
 
+                // hgraph
                 mu.users.loadHGraph(stateByFIPS[d.id]);
 
+                // bar graph
                 updateBarGraph(stateByFIPS[d.id]);
             })
             .on("mouseout", function() {
@@ -384,7 +389,6 @@ $(document).ready(function (){
             widthCp = w - margin.left - margin.right;
             heightCp = widthCp * mapRatio;
 
-            console.log(widthCp)
             // update projection
             var newProjection = d3.geo.albersUsa()
                 .scale(widthCp)
